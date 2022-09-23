@@ -1,0 +1,18 @@
+{
+  "name": "Skip AD",
+  "version": "1.1",
+  "description": "Skip AD extension",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["skip.js"],
+      "matches": ["https://www.youtube.com/watch*"]
+    }
+  ],
+  "icons": {
+    "16": "skip16.png",
+    "32": "skip32.png",
+    "48": "skip48.png",
+    "128": "skip128.png"
+  }
+}
